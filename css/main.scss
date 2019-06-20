@@ -97,6 +97,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+$color_letra_encabezado: #fff;
+
+$color11: #02385c;
+$color12: #7293aa;
+$color13: #01b7e2;
+
+$color21: #deebf1;
+$color22: #15bde4;
+$color23: #063a5b;
+$color24: #5c7d93;
+$color25: #3092ba;
+$color26: #1c537a;
+$color27: #106292;
+$color28: #1078a4;
+
+$color31: #003974;
+$color32: #08446b;
+$color33: #f9fefe;
+$color34: #93bfce;
+$color35: #1ba8d7;
+
+
 body {
   background: #fff;
 }
@@ -109,17 +131,18 @@ body {
 
 header {
   height: 100vh;
-  background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../img/fondo.jpg') left no-repeat;
+  //background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../img/fondo.jpg') left no-repeat;
+  background: linear-gradient(rgb(112,175,167), rgb(47,87,113)), url('../img/fondo.jpg') left no-repeat;
 }
 
 #contenedor-menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  align-items: center;
 }
 
 header .logo {
-  color: #fff;
+  color: $color_letra_encabezado;
   font-size: 1.5em;
 }
 
@@ -127,7 +150,7 @@ nav ul li {
   display: inline-block;
   margin-right: 30px;
   list-style: none;
-  color: #fff;
+  color: $color_letra_encabezado;
 }
 
 .contenedor-titulo {
@@ -135,7 +158,7 @@ nav ul li {
   justify-content: center;
   margin: 20vh 0;
   text-align: center;
-  color: #fff;
+  color: $color_letra_encabezado;
 }
 
 .contenedor-titulo h1 {
