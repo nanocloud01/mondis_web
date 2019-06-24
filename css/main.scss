@@ -167,11 +167,11 @@ nav ul li {
 }
 
 .contenedor-titulo h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 1.5em;
 }
 
-.contenedor-titulo a {
+.contenedor-titulo a, #sobre-mi a {
   font-size: 1em;
   background: #5cb8ff;
   padding: 14px 24px;
@@ -179,6 +179,68 @@ nav ul li {
   text-decoration: none;
   color: #fff;
 }
+
+// SOBRE MI
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+#sobre-mi .contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+}
+
+#sobre-mi .texto {
+  width: 45%;
+}
+
+// SERVICIOS
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #fff;
+  .violeta {
+    background: linear-gradient(to top, #5055df, #6d68f3);
+    box-shadow: 0 12 30 0 rgba(80, 85, 223, .37);
+  }
+  .celeste {
+    background: linear-gradient(to top, #40a8f9, #5cb8ff);
+    box-shadow: 0 12 30 0 rgba(86, 163, 222, .3);
+  }
+}
+
+.servicio {
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  p {
+    margin-bottom: 20px;
+    height: 194px;
+    //height: 350px;
+  }
+}
+
+.ondas {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.icono {
+  float: right;
+}
+
+
 
 
 /* ==========================================================================
